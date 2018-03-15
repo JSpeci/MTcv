@@ -162,7 +162,7 @@ class MyWave:
 if __name__ == "__main__":
 
     print("----Wave opener-----------------------------------\n")
-    mw = MyWave('cv02_wav_03.wav')
+    mw = MyWave('cv02_wav_02.wav')
     mw.printHead()
     mw.plotSIG()
 
