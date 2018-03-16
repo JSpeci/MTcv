@@ -42,8 +42,7 @@ def jasova_korekce(path_img, path_et, c = 255):
     # prevod na celociselne matice
     res = res.astype('uint8')
 
-    #plot
-
+    #tuple
     return (et1,im1,res)
 
 if __name__ == "__main__":
