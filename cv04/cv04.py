@@ -108,7 +108,7 @@ def histeq(im):
     return result_image, orig_hist, result_hist
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
 
     jas1 = jasova_korekce('Cv04_porucha1.bmp','Cv04_porucha1_etalon.bmp')
     jas2 = jasova_korekce('Cv04_porucha2.bmp','Cv04_porucha2_etalon.bmp')
